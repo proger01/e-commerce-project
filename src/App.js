@@ -1,21 +1,14 @@
 import React from 'react';
 import './App.css';
-//import img from './participantsUndefinedPhoto.png';
+import {HomePage} from './HomePage';
 
-class App extends React.Component {
-  constructor() {
-    super();
-  }
+export const App = () => {
+  return (
+    <div className="App">
+      <HomePage />
+    </div>
+  );
 
-
-  render() {
-    return (
-      <div className="App">
-        Hello
-      </div>
-    );
-
-  }
 }
 
 export default App;
